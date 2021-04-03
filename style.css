@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom right,#353588,#67679F);
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+}
+
+.header{
+    color:white;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bolder;
+}
+#description{
+    margin-top: -20px;
+    font-size: 18px;
+}
+
+.content{
+    background-color: #262646;
+    height: 100%;
+    width: 38%;
+    margin-top: 30px;
+    border-radius: 5px;
+    margin-left:31%;
+}
+
+form{
+    margin-top: 20px;
+    margin-left: 40px;
+    color:white;
+}
+input{
+    margin-top:5px;
+    height: 35px;
+    width: 92%;
+    border-radius: 5px;
+    text-indent: 15px;
+    margin-bottom: 30px;
+}
+label{
+    font-size: 18px;
+    font-weight: 800;
+    color: #F3F3F3;
+}
+input::placeholder{
+    font-size: 15px;
+    line-height: 2;
+}
+select{
+    margin-top:5px;
+    height: 35px;
+    width: 92%;
+    border-radius: 5px;
+    text-indent: 5px;
+    margin-bottom: 30px;
+    background-color: white;
+    font-size: 15px;
+
+}
+input[type="radio"]{
+    margin-top: 5px;
+    height: auto;
+    width: auto;
+    margin-bottom: 10px;
+}
+input[type="radio"]:last-of-type{
+    margin-bottom: 30px;
+}
+
+input[type="checkbox"]{
+    margin-top: 5px;
+    height: auto;
+    width: auto;
+    margin-bottom: 10px;
+}
+input[type="radio"]:last-of-type{
+    margin-bottom: 30px;
+}
+
+textarea{
+    margin-top:5px;
+    width: 92%;
+    border-radius: 5px;
+    text-indent: 15px;
+    margin-bottom: 30px;
+}
+textarea::placeholder{
+    font-size: 13px;
+    line-height: 2;
+    text-indent: 10px;
+}
+
+button[type="submit"]{
+    width:93%;
+    height: 50px;
+    margin-bottom: 70px;
+    background-color: #37AF65;
+    font-size: 17px;
+    color: honeydew;
+    border: none;
+}
